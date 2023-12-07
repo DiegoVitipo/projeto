@@ -80,7 +80,7 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
@@ -170,19 +170,19 @@ footer {
 
 /*animation*/
 @keyframes slide-in {
-  from{
-    left:0;
+  from {
+    left: 0;
   }
-  to{
-    left:50%;
+  to {
+    left: 50%;
   }
 }
 
-@keyframes slide-back{
-  from{
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
